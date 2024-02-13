@@ -108,7 +108,13 @@
 @include('_modal.forgetPassword')
 
 @endsection
+@section('header_scripts')
+<style>    .bootstrap-select > .dropdown-toggle{
+        z-index: 0 !important;
+    }
+</style>
 
+@endsection
 @section('footer_scripts')
 <script>
     App.allowNumber();
