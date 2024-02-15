@@ -32,9 +32,8 @@
     <!-- $value = session('key'); -->
 
     {{-- Favicon --}}
-    <link rel="icon" href="{{ URL::asset('assets/images/HAFlogo.png') }}" sizes="32x32" />
-    {{-- <link rel="icon" href="{{ URL::asset('assets/images/sadqaonlinelogo.png') }}" sizes="192x192" /> --}}
-    <link rel="apple-touch-icon" href="{{ URL::asset('assets/images/HAFlogo.png') }}" />
+    <link rel="icon" href="{{ URL::asset('assets/images/SKZLogo.png') }}" sizes="32x32" />
+    <link rel="apple-touch-icon" href="{{ URL::asset('assets/images/SKZLogo.png') }}" />
 
     @include('_jsVariables')
     @yield('header_scripts')
@@ -84,9 +83,9 @@
             <div class="site-header-inner">
                 <div class="container-fluid">
                     <div class="logo">
-                        <a href=" //{{ config('icharms.website_url') }} "><img height="120px" 
-                                src="{{ URL::asset('assets/images/HAFlogo2.png') }}"
-                                style="margin-top:-20px" alt="Sadaqa Online"></a>
+                        <a href=" //{{ config('icharms.website_url') }} "><img height="57px"
+                                src="{{ URL::asset('assets/images/SKZLogo.png') }}" style="margin-top:0px"
+                                alt="Sadaqa Online"></a>
                     </div>
                     <nav class="main-nav">
                         <ul>
@@ -95,30 +94,36 @@
                                 <a class="main-nav-link" href="//{{ config('icharms.website_url') }}">Home</a>
                             </li>
                             <li class="main-nav-item">
-                                <a class="main-nav-link" href="https://sadaqa-online.vercel.app/about">
-                                    About</a>
+                                <a class="main-nav-link" href="https://skzfoundation.uk/about-founder/">
+                                    About Founder</a>
                             </li>
                             <li class="main-nav-item">
-                              <a class="main-nav-link"
-                                  href="https://sadaqa-online.vercel.app/services">Services</a>
-                          </li>
-                            <li class="main-nav-item">
-                                <a class="main-nav-link"
-                                    href="https://sadaqa-online.vercel.app/">Appeal</a>
-                            </li>
-
-                            <li class="main-nav-item">
-                                <a class="main-nav-link"
-                                    href="https://sadaqa-online.vercel.app/event">Event</a>
+                                <a class="main-nav-link" href="https://skzfoundation.uk/our-projects/">Projects</a>
                             </li>
                             <li class="main-nav-item">
-                                <a class="main-nav-link" href="https://sadaqa-online.vercel.app/blog">
+                                <a class="main-nav-link">
+                                    Ramadan Appeal  
+                                </a>
+                                <ul role="menu" class=" dropdown-menu" style="background-color: white;">
+                                    <li id="menu-item-12977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12977"><a title="Ramadan 2024" href="https://skzfoundation.uk/ramadan/">Ramadan 2024</a></li>
+                                    <li id="menu-item-12976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12976"><a title="Iftar Drives" href="https://skzfoundation.uk/iftar-drives/">Iftar Drives</a></li>
+                                    <li id="menu-item-12978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12978"><a title="Ration Packs Distribution" href="https://skzfoundation.uk/ration-packs-distribution/">Ration Packs Distribution</a></li>
+                                    <li id="menu-item-12980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12980"><a title="Fitrana and Eid Gifts" href="https://skzfoundation.uk/fitrana-and-eid-gifts/">Fitrana and Eid Gifts</a></li>
+                                    <li id="menu-item-12981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12981"><a title="Zakat" href="https://skzfoundation.uk/zakat/">Zakat</a></li>
+                                    <li id="menu-item-13203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13203"><a title="Zakat Calculator" href="https://skzfoundation.uk/zakat-calculator/">Zakat Calculator</a></li>
+                                </ul>
+                            </li>
+                            <li class="main-nav-item">
+                                <a class="main-nav-link" href="https://skzfoundation.uk/blogs/">
                                     Blog</a>
                             </li>
 
                             <li class="main-nav-item">
-                                <a class="main-nav-link"
-                                    href="https://sadaqa-online.vercel.app/contact">Contact</a>
+                                <a class="main-nav-link" href="https://skzfoundation.uk/events/">Event</a>
+                            </li>
+
+                            <li class="main-nav-item">
+                                <a class="main-nav-link" href="https://skzfoundation.uk/contact-us/">Contact Us</a>
                             </li>
                         </ul>
                         <button type="button" class="main-nav-toggle-btn">
@@ -213,155 +218,191 @@
 
     <div class="home-container">
         <footer class="home-footer">
-          <div class="home-container1">
-            <div class="home-logo">
-              <img alt="logo" src="{{ URL::asset('assets/images/HAFlogo2.png') }}" height="120px" class="home-image" />
-              <div>
-                
-              </div>
-              <p class="font_paragraph">Our mission is to harness the power <br>of AI
-                to solve complex business challenges <br>&
-                decision-makers with data-driven insights,<br>
-                and enhance user experiences across
-                digital platforms.</p>
-                <br>
-                <p>Website: <a href="www.sadaqaonline.org">www.sadaqaonline.org</a></p>
+            <div class="home-container1">
+                <div class="home-logo">
+                    <img alt="logo" src="{{ URL::asset('assets/images/SKZLogo.png') }}" height="144px;"
+                        class="home-image" />
+                    <div>
+
+                    </div>
+                    <p class="font_paragraph ft" id="ft1"
+                        style="margin-top: 39px;text-align: justify;width: 300px;">We believe that only education and
+                        skill development can empower youth, shaping their futures and substantiating the deprived
+                        community. </p>
+                    <br>
+                    <a class="btn btn-danger" href="https://skzfoundation.uk/about-founder/" role="button"
+                        style="background-color: red;">Read More</a>
+
+                </div>
+                <div class="home-links-container">
+                    <div class="home-container2">
+                        <div class="home-product-container hidden">
+                            <span class="home-text">APPEALS</span>
+                            <a href="https://sadaqaonline.org/all-appeals/water/" class="home-link">
+                                Water for Life
+                            </a>
+                            <a href="https://sadaqaonline.org/all-appeals/cooked-food/" class="home-link01">
+                                Feed the Hungry
+                            </a>
+                            <a href="https://sadaqaonline.org/all-appeals/masjid/" class="home-link02">
+                                Build a Masjid
+                            </a>
+                            <a href="https://sadaqaonline.org/all-appeals/rozgar-project/" class="home-link03">
+                                Provide Livelihood
+                            </a>
+                            <a href="https://sadaqaonline.org/all-appeals/eye-surgeries/" class="home-link04">
+                                Eye Care Project
+                            </a>
+                            <a href="https://sadaqaonline.org/all-appeals/maktab/" class="home-link05">
+                                Support a Maktab
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-container3">
+                        <div class="home-product-container1">
+                            <span class="home-text01 ft">USEFUL LINKS</span>
+                            <a href="https://skzfoundation.uk/faqs/" class="home-link06 ft">
+                                FAQ&#8217;s
+                            </a>
+                            <a href="https://skzfoundation.uk/gift-aid-policy/" class="home-link07 ft">
+                                Gift Aid
+                            </a>
+                            <a href="https://skzfoundation.uk/our-team/" class="home-link08 ft">
+                                Our Team
+                            </a>
+                            <a href="https://skzfoundation.uk/our-policy/" class="home-link09 ft">
+                                Our Policy
+                            </a>
+                            <a href="https://skzfoundation.uk/shaping-minds-with-technology" class="home-link10 ft">
+                                Digital Future
+                            </a>
+                            <a href="https://skzfoundation.uk/newsletter/" class="home-link11 ft">
+                                Newsletter
+                            </a>
+                            <a href="https://skzfoundation.uk/wp-content/uploads/2019/05/Compressed-SKZ-Annual-Achievement-Report-2022.pdf"
+                                class="home-link11 ft">
+                                Reports
+                            </a>
+                            <a href="https://skzfoundation.uk/privacy-policy/" class="home-link11 ft">
+                                Privacy Policy
+                            </a>
+
+                            <a href="https://skzfoundation.uk/terms-and-conditions/" class="home-link11 ft">
+                                Terms and Conditions
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home-container4">
+                        <div class="home-product-container2">
+                            <span class="home-text02">
+
+                                <span>BANK DETAILS</span>
+                                <br />
+                            </span>
+                            <a href="https://skzfoundation.uk/accept-payments" class="home-link12 ft">
+                                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                Credit Card
+                            </a>
+                            <a href="#" class="home-link13 ft">
+                                <span class="detail_name">Bank Name:</span> Bank Islami
+                            </a>
+
+                            <a href="#" class="home-link14 ft">
+                                <span class="detail_name"> Account Title:</span> Saya E Khuda E Zuljalal
+                            </a>
+                            <a href="javascript:void(0)" class="home-link15 ft">
+                                <span class="detail_name">Account Number:</span> 2053-5712157-0001
+                            </a>
+                            <a href="javascript:void(0)" class="home-link15 ft">
+                                <span class="detail_name">IBAN NUMBER:</span> <br> PK60BKIP0205357121570001
+                            </a>
+                            <a href="javascript:void(0)" class="home-link15 ft">
+                                <span class="detail_name"> Bank Name:</span> Cashplus Bank
+                            </a>
+                            <a href="javascript:void(0)" class="home-link15 ft">
+                                <span class="detail_name"> Account Title:</span> Saya E Khuda E Zuljlal
+                            </a>
+                            <a href="javascript:void(0)" class="home-link15 ft">
+                                <span class="detail_name"> Account Number:</span> 07845728
+                            </a>
+                            <a href="javascript:void(0)" class="home-link15 ft">
+                                <span class="detail_name">Sort Code:</span> 08-71-99
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-container5">
+                        <div style="height: 100%; position: relative;">
+                            <span class="home-text03">
+
+                                <span class="newsletter" style="width: 179%;">NEWSLETTER</span>
+                                <br />
+                            </span>
+
+                            <p class="home-link15 newtext ft">
+                                Subscribe to our newsletter to get the latest news.
+                            </p>
+                            <input type="email" name="form_fields[email]" id="form-field-email"
+                                placeholder="Email" required="required" aria-required="true"
+                                data-gtm-form-interact-field-id="0"><button type="button"
+                                class="btn btn-danger">send</button>
+
+                            <div
+                                style="margin-top: 10px; justify-content: flex-start; align-items: flex-start; gap: 33px; display: inline-flex">
+                                <div class="elementor-grid-item"
+                                    style="width: 40px; height: 40px; padding: 12px; background: #cd201f; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                    <div
+                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                                        <span>
+                                        <a href="https://www.youtube.com/@skz.foundation" target="_blank">
+                                            <i class="fa fa-youtube-play icons-footer" aria-hidden="true"></i>
+                                        </a>
+                                      </span>
+                                    </div>
+                                </div>
+                                <div
+                                    style="width: 40px; height: 40px; padding: 12px; background: #3b5998; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                    <div
+                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-8612d61"
+                                            href="https://www.facebook.com/SKZngo/" target="_blank">
+                                            <i class="fa fa-facebook icons-footer" style="padding-left: 2px;" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div
+                                    style="width: 40px; height: 40px; padding: 12px; background: #0077b5; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                    <div
+                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-c3ee66e"
+                                            href="https://www.linkedin.com/groups/9521530/" target="_blank">
+                                            <i class="fa fa-linkedin  icons-footer" style="padding-left: 2px;" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div
+                                    style="width: 40px; height: 40px; padding: 12px; background: #F7125F; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                    <div
+                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-cb1cae3"
+                                            href="https://www.instagram.com/skzfoundation?igsh=MWpmOWwzMDIycG90cQ=="
+                                            target="_blank">
+                                            <i class="fa fa-instagram icons-footer" style="padding-left: 2px;"   aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-contact">
+                        </div>
+                        <div class="home-socials"></div>
+                    </div>
+                </div>
             </div>
-            <div class="home-links-container">
-              <div class="home-container2">
-                <div class="home-product-container hidden">
-                  <span class="home-text">APPEALS</span>
-                  <a href="https://sadaqaonline.org/all-appeals/water/" class="home-link">
-                    Water for Life
-                  </a>
-                  <a href="https://sadaqaonline.org/all-appeals/cooked-food/" class="home-link01">
-                    Feed the Hungry
-                  </a>
-                  <a href="https://sadaqaonline.org/all-appeals/masjid/" class="home-link02">
-                    Build a Masjid
-                  </a>
-                  <a href="https://sadaqaonline.org/all-appeals/rozgar-project/" class="home-link03">
-                    Provide Livelihood
-                  </a>
-                  <a href="https://sadaqaonline.org/all-appeals/eye-surgeries/" class="home-link04">
-                    Eye Care Project
-                  </a>
-                  <a href="https://sadaqaonline.org/all-appeals/maktab/" class="home-link05">
-                    Support a Maktab
-                  </a>
-                </div>
-              </div>
-              <div class="home-container3">
-                <div class="home-product-container1">
-                  <span class="home-text01" style="color: black">Primary Pages</span>
-                  <a href="https://sadaqa-online.vercel.app/" class="home-link06">
-                    Home
-                  </a>
-                  <a href="https://sadaqa-online.vercel.app/about" class="home-link07">
-                    About Us
-                  </a>
-                  <a href="https://sadaqa-online.vercel.app/services" class="home-link08">
-                    Services
-                  </a>
-                  <a href="https://sadaqa-online.vercel.app/privacy-policy" class="home-link09">
-                    Privacy Policy
-                  </a>
-                  <a href="https://sadaqa-online.vercel.app/terms-conditions" class="home-link10">
-                    Terms & Conditions
-                  </a>
-                  <a href="https://sadaqa-online.vercel.app/contact" class="home-link11">
-                    Contact
-                  </a>
-                </div>
-              </div>
-
-              <div class="home-container4" style="color: black">
-                <div class="home-product-container2" style="color: black">
-                  <span class="home-text02" style="color: black">
-
-                    <span>Utility Pages</span>
-                    <br />
-                  </span>
-                  <a href="https://sadaqa-online.vercel.app/signup" class="home-link12">
-                    Signup
-                  </a>
-                  <a href="https://sadaqa-online.vercel.app/login" class="home-link13">
-                    Login
-                  </a>
-
-                  <a href="https://sadaqa-online.vercel.app" class="home-link14">
-                    404 Not Found
-                  </a>
-                  <a href="https://sadaqaonline-donate.tscube.co.in/" class="home-link15">
-
-                    Password Reset
-                  </a>
-                </div>
-              </div>
-              <div class="home-container5">
-                <div style="width: 100%; height: 100%; position: relative; margin-left: 80px">
-                  <div style="height: 27.93px; padding-right: 76.97px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                      <div style="color: black; font-size: 21px; font-family: DM Sans; font-weight: 700; text-transform: capitalize; line-height: 27.93px; word-wrap: break-word">Subscribe to our newsletter</div>
-                  </div>
-                  <div style="height: 50px; padding-right: 67.97px; left: 0px; top: 51.93px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                      <div style="align-self: stretch; height: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                          <div style="align-self: stretch; padding-top: 13.50px; padding-bottom: 14.50px; padding-left: 25px; padding-right: 70px; background: white; border-radius: 50px; border: 1px black solid; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                              <div style="padding-right: 56px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                                  <div style="color: #9CA3AF; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word">Enter your email</div>
-                              </div>
-                          </div>
-                          {{-- <div style="width: 72px; padding-left: 24px; padding-right: 24px; padding-top: 7.50px; padding-bottom: 7.50px; background: black; border-radius: 50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                              <div style="align-self: stretch; height: 25px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                                  <div style="width: 24px; height: 25px; flex-direction: column; justify-content: center; align-items: center; display: flex">
-                                      <div style="width: 24px; height: 25px; position: relative">
-                                          <div style="width: 18px; height: 14px; left: 3px; top: 6px; position: absolute; border: 2px white solid"></div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div> --}}
-                      </div>
-                  </div>
-                  <div style="left: 10px; top: 126px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 22px; display: inline-flex">
-                      <div style="width: 40px; height: 40px; padding: 12px; background: #0f4f7b; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
-                          <div style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                            <i class="fa fa-instagram icons-footer" aria-hidden="true"></i>
-                          </div>
-                      </div>
-                      <div style="width: 40px; height: 40px; padding: 12px; background: #0f4f7b; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
-                          <div style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                            <i class="fa fa-pinterest icons-footer" aria-hidden="true"></i>
-                          </div>
-                      </div>
-                      <div style="width: 40px; height: 40px; padding: 12px; background: #0f4f7b; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
-                          <div style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                            <i class="fa fa-twitter icons-footer" aria-hidden="true"></i>
-                          </div>
-                      </div>
-                      <div style="width: 40px; height: 40px; padding: 12px; background: #0f4f7b; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
-                          <div style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                            <i class="fa fa-facebook icons-footer" aria-hidden="true"></i>
-                          </div>
-                      </div>
-                      <div style="width: 40px; height: 40px; padding: 12px; background: #0f4f7b; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
-                          <div style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                            <i class="fa fa-google icons-footer" aria-hidden="true"></i>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-                <div class="home-contact">
-                </div>
-                <div class="home-socials"></div>
-              </div>
-            </div>
-          </div>
-          <div class="home-separator"></div>
-          <span class="home-text14"  style="color: black">
-            © Copyright 2023. All Rights Reserved by Sadaqa Online.
-          </span>
+            <div class="home-separator"></div>
+            <span class="home-text14" style="color: white">
+                © Copyright 2023. All Rights Reserved by Sadaqa Online.
+            </span>
         </footer>
-      </div>
+    </div>
     <!-- END FOOTER -->
 
     </div>
