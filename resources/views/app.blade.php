@@ -399,7 +399,7 @@
             </div>
             <div class="home-separator"></div>
             <span class="home-text14" style="color: white">
-                © Copyright 2023. All Rights Reserved by Sadaqa Online.
+                © Copyright 2023. All Rights Reserved by SKZ Foundation.
             </span>
         </footer>
     </div>
