@@ -59,6 +59,9 @@ var Checkout = (function($) {
                 address_id: {
                     required: true
                 },
+                phone: {
+                    required: true
+                },
                 country: {
                     required: function() {
                         return $("#address1").is(":visible");
