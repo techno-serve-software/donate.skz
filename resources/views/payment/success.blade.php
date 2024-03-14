@@ -16,7 +16,7 @@
 @if (request()->status == 'only-direct-debit' || request()->status == 'both' )
 <p class="lead">Your Direct Debit is created successfully,
     the organization will contact you for confirmation.
-    Thank you for supporting Sadaqa Online with your monthly Direct
+    Thank you for supporting SKZ Foundation with your monthly Direct
     Debit. We are dedicated to help alleviate the suffering of
     the world's poorest people, which is not possible
     without generous donations from people like you.

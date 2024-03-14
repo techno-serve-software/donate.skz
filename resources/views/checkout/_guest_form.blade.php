@@ -226,7 +226,7 @@
                         id="tax_detect_amount">1.25</span></h4>
                 <p class="lead">
                     <input type="checkbox" name="taxpayer" id="taxpayer" value="Y"> &nbsp; I am a UK taxpayer
-                    and would like Sadaqa Online to reclaim tax on all donations I have made within the last four years
+                    and would like SKZ Foundation to reclaim tax on all donations I have made within the last four years
                     and
                     all donations that I make hereafter.
                 </p>
@@ -282,7 +282,7 @@
                     </div>
                 </div>
                 <p class="mt-10">You can opt out any time by contacting us on 020 XX XXXXX or emailing us at
-                    enquiries@sadaqaonline.org
+                    enquiry@skzfoundation.uk
                 </p>
             </div>
         </div>

@@ -85,7 +85,7 @@
                     <div class="logo">
                         <a href=" //{{ config('icharms.website_url') }} "><img height="57px"
                                 src="{{ URL::asset('assets/images/SKZLogo.png') }}" style="margin-top:0px"
-                                alt="Sadaqa Online"></a>
+                                alt="SKZ Foundation"></a>
                     </div>
                     <nav class="main-nav">
                         <ul>
@@ -102,15 +102,34 @@
                             </li>
                             <li class="main-nav-item">
                                 <a class="main-nav-link">
-                                    Ramadan Appeal  
+                                    Ramadan Appeal
                                 </a>
                                 <ul role="menu" class=" dropdown-menu" style="background-color: white;">
-                                    <li id="menu-item-12977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12977"><a title="Ramadan 2024" href="https://skzfoundation.uk/ramadan/">Ramadan 2024</a></li>
-                                    <li id="menu-item-12976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12976"><a title="Iftar Drives" href="https://skzfoundation.uk/iftar-drives/">Iftar Drives</a></li>
-                                    <li id="menu-item-12978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12978"><a title="Ration Packs Distribution" href="https://skzfoundation.uk/ration-packs-distribution/">Ration Packs Distribution</a></li>
-                                    <li id="menu-item-12980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12980"><a title="Fitrana and Eid Gifts" href="https://skzfoundation.uk/fitrana-and-eid-gifts/">Fitrana and Eid Gifts</a></li>
-                                    <li id="menu-item-12981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12981"><a title="Zakat" href="https://skzfoundation.uk/zakat/">Zakat</a></li>
-                                    <li id="menu-item-13203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13203"><a title="Zakat Calculator" href="https://skzfoundation.uk/zakat-calculator/">Zakat Calculator</a></li>
+                                    <li id="menu-item-12977"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12977">
+                                        <a title="Ramadan 2024" href="https://skzfoundation.uk/ramadan/">Ramadan
+                                            2024</a></li>
+                                    <li id="menu-item-12976"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12976">
+                                        <a title="Iftar Drives" href="https://skzfoundation.uk/iftar-drives/">Iftar
+                                            Drives</a></li>
+                                    <li id="menu-item-12978"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12978">
+                                        <a title="Ration Packs Distribution"
+                                            href="https://skzfoundation.uk/ration-packs-distribution/">Ration Packs
+                                            Distribution</a></li>
+                                    <li id="menu-item-12980"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12980">
+                                        <a title="Fitrana and Eid Gifts"
+                                            href="https://skzfoundation.uk/fitrana-and-eid-gifts/">Fitrana and Eid
+                                            Gifts</a></li>
+                                    <li id="menu-item-12981"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12981">
+                                        <a title="Zakat" href="https://skzfoundation.uk/zakat/">Zakat</a></li>
+                                    <li id="menu-item-13203"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13203">
+                                        <a title="Zakat Calculator"
+                                            href="https://skzfoundation.uk/zakat-calculator/">Zakat Calculator</a></li>
                                 </ul>
                             </li>
                             <li class="main-nav-item">
@@ -342,52 +361,63 @@
                             <p class="home-link15 newtext ft">
                                 Subscribe to our newsletter to get the latest news.
                             </p>
-                            <input type="email" name="form_fields[email]" id="form-field-email"
+                            {{-- <input type="email" name="form_fields[email]" id="form-field-email"
                                 placeholder="Email" required="required" aria-required="true"
                                 data-gtm-form-interact-field-id="0"><button type="button"
-                                class="btn btn-danger">send</button>
+                                class="btn btn-danger">send</button> --}}
 
                             <div
                                 style="margin-top: 10px; justify-content: flex-start; align-items: flex-start; gap: 33px; display: inline-flex">
-                                <div class="elementor-grid-item"
-                                    style="width: 40px; height: 40px; padding: 12px; background: #cd201f; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
-                                    <div
-                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                                        <span>
-                                        <a href="https://www.youtube.com/@skz.foundation" target="_blank">
-                                            <i class="fa fa-youtube-play icons-footer" aria-hidden="true"></i>
-                                        </a>
-                                      </span>
+                                <a href="https://www.youtube.com/@skz.foundation" target="_blank">
+                                    <div class="elementor-grid-item"
+                                        style="width: 40px; height: 40px; padding: 12px; background: #cd201f; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                        <div
+                                            style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                                            <span>
+
+                                                <i class="fa fa-youtube-play icons-footer" aria-hidden="true"></i>
+
+                                            </span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div
-                                    style="width: 40px; height: 40px; padding: 12px; background: #3b5998; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                </a>
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-8612d61"
+                                    href="https://www.facebook.com/SKZngo/" target="_blank">
                                     <div
-                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-8612d61"
-                                            href="https://www.facebook.com/SKZngo/" target="_blank">
-                                            <i class="fa fa-facebook icons-footer" style="padding-left: 2px;" aria-hidden="true"></i></a>
+                                        style="width: 40px; height: 40px; padding: 12px; background: #3b5998; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                        <div
+                                            style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+
+                                            <i class="fa fa-facebook icons-footer" style="padding-left: 2px;"
+                                                aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                </div>
-                                <div
-                                    style="width: 40px; height: 40px; padding: 12px; background: #0077b5; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                </a>
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-c3ee66e"
+                                    href="https://www.linkedin.com/groups/9521530/" target="_blank">
                                     <div
-                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-c3ee66e"
-                                            href="https://www.linkedin.com/groups/9521530/" target="_blank">
-                                            <i class="fa fa-linkedin  icons-footer" style="padding-left: 2px;" aria-hidden="true"></i></a>
+                                        style="width: 40px; height: 40px; padding: 12px; background: #0077b5; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                        <div
+                                            style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+
+                                            <i class="fa fa-linkedin  icons-footer" style="padding-left: 2px;"
+                                                aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                </div>
-                                <div
-                                    style="width: 40px; height: 40px; padding: 12px; background: #F7125F; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                </a>
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-cb1cae3"
+                                    href="https://www.instagram.com/skzfoundation?igsh=MWpmOWwzMDIycG90cQ=="
+                                    target="_blank">
                                     <div
-                                        style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-cb1cae3"
-                                            href="https://www.instagram.com/skzfoundation?igsh=MWpmOWwzMDIycG90cQ=="
-                                            target="_blank">
-                                            <i class="fa fa-instagram icons-footer" style="padding-left: 2px;"   aria-hidden="true"></i></a>
+                                        style="width: 40px; height: 40px; padding: 12px; background: #F7125F; border-radius: 9999px; justify-content: center; align-items: center; display: flex">
+                                        <div
+                                            style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+
+                                            <i class="fa fa-instagram icons-footer" style="padding-left: 2px;"
+                                                aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
