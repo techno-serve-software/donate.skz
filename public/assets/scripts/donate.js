@@ -165,6 +165,17 @@ $(document).ready(function() {
                             $('.rbox-wrap-amount').html(response.amount_box);
                             $('#country-group').html(response.country_input);
 
+                            var urlParams = new URLSearchParams(window.location.search);
+                            console.log(urlParams);
+                            var urlSource = urlParams.get('source');
+                            console.log(urlSource);
+
+                            if ($('#x_source').val() == 'home') {
+                                $('button[type="submit"]').trigger('click');
+                                urlSource = null;
+                                console.log(urlSource);
+                            }
+
                         } else {
 
                             $('#country-group').html(response.country_input);
