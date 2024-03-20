@@ -166,14 +166,11 @@ $(document).ready(function() {
                             $('#country-group').html(response.country_input);
 
                             var urlParams = new URLSearchParams(window.location.search);
-                            console.log(urlParams);
                             var urlSource = urlParams.get('source');
-                            console.log(urlSource);
 
                             if ($('#x_source').val() == 'home') {
                                 $('button[type="submit"]').trigger('click');
                                 urlSource = null;
-                                console.log(urlSource);
                             }
 
                         } else {
@@ -245,6 +242,14 @@ $(document).ready(function() {
                             $('.other-input-box').removeClass('display-hide')
                         }
                         $('#amount-group').removeClass('display-hide');
+
+                        var urlParams = new URLSearchParams(window.location.search);
+                            var urlSource = urlParams.get('source');
+
+                            if ($('#x_source').val() == 'home') {
+                                $('button[type="submit"]').trigger('click');
+                                urlSource = null;
+                            }
 
                     } else if (response.participant == 'Y') {
 

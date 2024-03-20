@@ -134,6 +134,24 @@
     var delete_item = '{!! route('delete_item') !!}';
 
     $(document).ready(function(){
+
+        // Get the current URL parameters
+        var urlParams = new URLSearchParams(window.location.search);
+
+        // List of parameter names to nullify
+        var paramsToRemove = ['source', 'category_id', 'program_id', 'country_id', 'type'];
+
+        // Remove each parameter from the URL
+        paramsToRemove.forEach(function(paramName) {
+            urlParams.delete(paramName);
+        });
+
+        // Get the modified URL without the parameters
+        var newUrl = window.location.pathname + '?' + urlParams.toString();
+
+        // Redirect back to the modified URL
+        window.history.pushState({ path: newUrl }, '', newUrl);
+        
         // trigger donation type
         <?php if(isset($_REQUEST['source']) && $_REQUEST['source'] == 'home'): ?>
         $('#donation_type').val(<?php echo $_REQUEST['category_id'] ?>);
