@@ -91,7 +91,7 @@
                         <ul>
 
                             <li class="main-nav-item">
-                                <a class="main-nav-link" href="//{{ config('icharms.website_url') }}">Home</a>
+                                <a class="main-nav-link" href="{{ config('icharms.website_url') }}">Home</a>
                             </li>
                             <li class="main-nav-item">
                                 <a class="main-nav-link" href="https://skzfoundation.uk/about-founder/">
