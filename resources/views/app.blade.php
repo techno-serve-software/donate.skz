@@ -48,38 +48,7 @@
     <div id="wrapper" class="wrapper">
 
         <!-- BEGIN HEADER -->
-        <header class="site-header">
-            <div class="site-header-bar hidden">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col col-lg-6">
-                            <div class="contacts-info">
-                                <p> {{-- <i class="fa fa-info-circle"></i> Serving Helpless People Since More Than 3
-                                    Decades --}}
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col col-lg-6">
-                            {{-- <div class="social">
-                                <h3>Follow us:</h3>
-                                <ul class="social-nav">
-                                    <li><a href=""><i class="fa
-                                                    fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                                </ul>
-                            </div> --}}
-                            <div class="contacts-info">
-                                <p><i class="fa fa-phone"></i> 0208 903 8944</p>
-                                <p><i class="fa fa-envelope-open-o"></i>
-                                    info@sadaqaonline.org
-                                </p>
-                                {{-- <p> <a href="">Ways to Donate</a></p> --}}
-                                <p> <a href="//{{ config('icharms.website_url') }}/contact/">Contact Us</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <header class="site-header">    
             <div class="site-header-inner">
                 <div class="container-fluid">
                     <div class="logo">
@@ -91,7 +60,7 @@
                         <ul>
 
                             <li class="main-nav-item">
-                                <a class="main-nav-link" href="//{{ config('icharms.website_url') }}">Home</a>
+                                <a class="main-nav-link" href="{{ config('icharms.website_url') }}">Home</a>
                             </li>
                             <li class="main-nav-item">
                                 <a class="main-nav-link" href="https://skzfoundation.uk/about-founder/">

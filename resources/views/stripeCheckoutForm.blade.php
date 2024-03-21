@@ -207,7 +207,7 @@
 
         <div class="form-body">
             <div class="text-center" id="over">
-                <img src="https://user-images.githubusercontent.com/9677258/161246588-f82a1893-38d0-49ba-97dd-0643594f65a1.png" alt="Sadaqa Online">
+                {{-- <img src="https://user-images.githubusercontent.com/9677258/161246588-f82a1893-38d0-49ba-97dd-0643594f65a1.png"> --}}
             </div><br>
             <div class="row">
                 <div class="col-sm-12">

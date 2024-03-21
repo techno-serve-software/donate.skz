@@ -18,9 +18,9 @@
     <li>You may be using an older browser. Our recommended browser option is Firefox or Chrome.</li>
 </ul>
 
-<p class="text-black">Please contact <span class="text-primary">Sadaqa Online </span> for further details: <a
-    href="tel:0208 903 8944"><i class="fa fa-phone"></i> 020 XX XXXXX</a> &nbsp; or &nbsp; <a
-    href="mailto:info@sadaqaonline.org"><i class="fa fa-envelope"></i> info@sadaqaonline.org</a>. We will get back
+<p class="text-black">Please contact <span class="text-primary">SKZ Foundation </span> for further details: <a
+    href="tel:+44 7818 318526"><i class="fa fa-phone"></i> +44 7818 318526</a> &nbsp; or &nbsp; <a
+    href="mailto:info@skzfoundation.uk"><i class="fa fa-envelope"></i> info@skzfoundation.uk</a>. We will get back
 to you as soon as possible.</p>
 
 <a href="{{ url('/') }}" class="btn btn-steps"> <i class="fa fa-angle-left"></i> <span>Go Back</span>

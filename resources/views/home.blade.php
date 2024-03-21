@@ -92,7 +92,7 @@
         </div>
 
         <div class="text-center">
-            <button type="submit" class="btn btn-lg
+            <button id="submit-donation" type="submit" class="btn btn-lg
                     btn-primary" style="background-color: #0f4f7b !important">Submit donation</button>
         </div>
     </form>
@@ -134,6 +134,9 @@
     var delete_item = '{!! route('delete_item') !!}';
 
     $(document).ready(function(){
+        console.log('form loaded');
+        // trigger donation type
+        <?php if(isset($_REQUEST['source']) && $_REQUEST['source'] == 'home'): ?>
 
         // Get the current URL parameters
         var urlParams = new URLSearchParams(window.location.search);
@@ -152,8 +155,6 @@
         // Redirect back to the modified URL
         window.history.pushState({ path: newUrl }, '', newUrl);
         
-        // trigger donation type
-        <?php if(isset($_REQUEST['source']) && $_REQUEST['source'] == 'home'): ?>
         $('#donation_type').val(<?php echo $_REQUEST['category_id'] ?>);
         setTimeout(function(){
             $('#donation_type').trigger('change');
