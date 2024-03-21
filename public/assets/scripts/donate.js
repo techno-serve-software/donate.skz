@@ -169,7 +169,8 @@ $(document).ready(function() {
                             var urlSource = urlParams.get('source');
 
                             if ($('#x_source').val() == 'home') {
-                                $('button[type="submit"]').trigger('click');
+                                console.log('form-submitted 2');
+                                $('#submit-donation').trigger('click');
                                 urlSource = null;
                             }
 
@@ -189,8 +190,9 @@ $(document).ready(function() {
                             }
 
                         }
+
                         // NOTE:default country set to PAK
-                        $('#country').val('2').trigger('change')
+                        // $('#country').val('2').trigger('change')
                     }
 
 
@@ -247,7 +249,8 @@ $(document).ready(function() {
                             var urlSource = urlParams.get('source');
 
                             if ($('#x_source').val() == 'home') {
-                                $('button[type="submit"]').trigger('click');
+                                console.log('form-submitted 1');
+                                $('#submit-donation').trigger('click');
                                 urlSource = null;
                             }
 
